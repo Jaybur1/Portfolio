@@ -117,12 +117,45 @@
     margin-top: -20px;
 }
 
-.about-pic img {
-    position: fixed;
-    left: 0;
-    width: 15%;
-    height: 25%;
-    border-radius: 50%;
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
     margin: auto;
-    box-shadow: 5px 5px 30px black;
+    padding: 25px;
+}
+
+.contact-page {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    margin-top: 30vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+}
+
+.contact-page h1 {
+    font-family: 'KoHo', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    text-align: left;
+}
+
+.contact-page hr {
+    position: relative;
+    left: 0;
+    border-top: 1px dotted black;
+    width: 90%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.contacts {
+    display: grid;
+    grid-gap: 10px;
+    font-family: 'KoHo', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    text-align: left;
 }
