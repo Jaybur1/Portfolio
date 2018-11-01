@@ -13,7 +13,8 @@ render(){
           I am a self thought web developer from Canada.
           as you probebly guessed by my offical name, im not origenaly from Canada.
           I was born in the Ukraine, then moved to Israel and then moved to Canada, yeah preaty long journy eh ?<br />
-          Well I can tell you that it is was quite a journy, in fact it is still on going. <br />
+          Well I can tell you that it is was quite a journy, in fact it is still on going.
+          I started learning web development in the end of 2016 , after being a professional truck driver for 4 years. <br />
 
           </p>
         </div>
