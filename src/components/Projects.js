@@ -6,8 +6,7 @@ import {
   CardTitle,
   CardActions,
   Button,
-  CardMenu,
-  IconButton
+  CardMenu
 } from "react-mdl";
 
 class Projects extends Component {
@@ -34,7 +33,7 @@ class Projects extends Component {
               }}
               ><span className="card-title">Calculator, ReactJS</span></CardTitle>
             <CardActions border>
-              <CardMenu><IconButton name="share" style={{color:'#fff'}} /></CardMenu>
+              <CardMenu></CardMenu>
               <a href="https://codepen.io/Jaybur1/pen/rqmpgJ" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
               <a href="https://codepen.io/Jaybur1/full/rqmpgJ" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
               
@@ -52,7 +51,7 @@ class Projects extends Component {
               }}
               ><span className="card-title">Drum Machine, ReactJS</span></CardTitle>
             <CardActions border>
-              <CardMenu><IconButton name="share" style={{color:'#fff'}} /></CardMenu>
+              <CardMenu></CardMenu>
               <a href="https://codepen.io/Jaybur1/pen/wYzMae" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
               <a href="https://codepen.io/Jaybur1/full/wYzMae" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
               
@@ -70,7 +69,7 @@ class Projects extends Component {
               }}
               ><span className="card-title">Markedown Previewer, ReactJS</span></CardTitle>
             <CardActions border>
-              <CardMenu><IconButton name="share" style={{color:'#fff'}} /></CardMenu>
+              <CardMenu></CardMenu>
               <a href="https://codepen.io/Jaybur1/pen/mzmjWB" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
               <a href="https://codepen.io/Jaybur1/full/mzmjWB" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
               
@@ -88,7 +87,7 @@ class Projects extends Component {
               }}
               ><span className="card-title">Pomodoro Clock, JQuery</span></CardTitle>
             <CardActions border>
-              <CardMenu><IconButton name="share" style={{color:'#fff'}} /></CardMenu>
+              <CardMenu></CardMenu>
               <a href="https://codepen.io/Jaybur1/pen/wmLVpB" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
               <a href="https://codepen.io/Jaybur1/full/wmLVpB" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
               
@@ -106,7 +105,7 @@ class Projects extends Component {
               }}
               ><span className="card-title">Randome Quote, JQuery</span></CardTitle>
             <CardActions border>
-              <CardMenu><IconButton name="share" style={{color:'#fff'}} /></CardMenu>
+              <CardMenu></CardMenu>
               <a href="https://codepen.io/Jaybur1/pen/yRJWWV" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
               <a href="https://codepen.io/Jaybur1/full/yRJWWV" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
               
@@ -124,7 +123,7 @@ class Projects extends Component {
               }}
               ><span className="card-title">Weather App, JQuery</span></CardTitle>
             <CardActions border>
-              <CardMenu><IconButton name="share" style={{color:'#fff'}} /></CardMenu>
+              <CardMenu></CardMenu>
               <a href="https://codepen.io/Jaybur1/pen/rGjzRz" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
               <a href="https://codepen.io/Jaybur1/full/rGjzRz" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
               
@@ -146,7 +145,7 @@ return(
               }}
               ><span className="card-title">Voyage 7</span></CardTitle>
             <CardActions border>
-              <CardMenu><IconButton name="share" style={{color:'#000'}} /></CardMenu>
+              <CardMenu></CardMenu>
               <Button colored>gitHub</Button>
               <Button colored>Live View</Button>
               
@@ -157,6 +156,42 @@ return(
     }else if(this.state.activeTab ===2){
       return(
         <div className="projects">
+        {/*Flex Gallery */}
+        <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
+        <CardTitle
+          expand
+          style={{
+            color: "#000",
+            height: "150px",
+            background:
+              "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
+              textShadow: '5px 5px 20px white'
+          }}
+          ><span className="card-title"><strong>Flex Gallery, VanillaJS</strong></span></CardTitle>
+        <CardActions border>
+          <CardMenu></CardMenu>
+          <a href="https://codesandbox.io/s/yv454m8x21" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
+          <a href="https://yv454m8x21.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
+        </CardActions>
+      </Card>
+      {/*Flex Gallery */}
+      <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
+      <CardTitle
+        expand
+        style={{
+          color: "#000",
+          height: "150px",
+          background:
+            "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
+            textShadow: '5px 5px 20px white'
+        }}
+        ><span className="card-title"><strong>Local Time Clock, VanillaJS</strong></span></CardTitle>
+      <CardActions border>
+        <CardMenu></CardMenu>
+        <a href="https://codesandbox.io/s/zw6k07kqnm" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
+        <a href="https://zw6k07kqnm.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
+      </CardActions>
+    </Card>
         </div>
       )
     }
