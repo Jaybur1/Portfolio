@@ -7,7 +7,7 @@ render(){
           <h1 className="quote">"Be better today then yourself tomorrow !"</h1>
           <hr />
           <div className="about-content">
-          <p> Coming soon </p>
+          <p> Coming soon ... </p>
         </div>
         </div>
     )
