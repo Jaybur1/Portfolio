@@ -174,7 +174,7 @@ return(
           <a href="https://yv454m8x21.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
         </CardActions>
       </Card>
-      {/*Flex Gallery */}
+      {/*Local Time Clock*/}
       <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
       <CardTitle
         expand
@@ -185,7 +185,7 @@ return(
             "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
             textShadow: '5px 5px 20px white'
         }}
-        ><span className="card-title"><strong>Local Time Clock, Vanilla</strong></span></CardTitle>
+        ><span className="card-title"><strong>Local Time Clock, VanillaJS</strong></span></CardTitle>
       <CardActions border>
         <CardMenu></CardMenu>
         <a href="https://codesandbox.io/s/zw6k07kqnm" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
