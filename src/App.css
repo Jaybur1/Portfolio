@@ -95,6 +95,11 @@
     grid-gap: 40px;
 }
 
+.cards:hover {
+    box-shadow: 15px 15px 80px black;
+    transform: scale(1.02);
+}
+
 .about-page {
     background-color: rgba(255, 255, 255, 0.7);
     width: 80%;
