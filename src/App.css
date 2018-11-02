@@ -96,7 +96,7 @@
 }
 
 .cards:hover {
-    box-shadow: 15px 15px 80px black;
+    box-shadow: 15px 15px 82px black;
     transform: scale(1.02);
 }
 
