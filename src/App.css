@@ -6,7 +6,6 @@
     background: url('https://stmed.net/sites/default/files/building-wallpapers-28464-2294147.jpg');
     background-attachment: fixed;
     text-align: center;
-    overflow: hidden;
 }
 
 .landing-grid {
@@ -93,6 +92,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
+}
+
+@media only screen and (min-device-width: 320px) and (min-device-width:480px) {
+    .cards {
+        width: 100px;
+        margin: auto;
+    }
 }
 
 .cards:hover {

@@ -21,7 +21,89 @@ class Projects extends Component {
     if(this.state.activeTab === 0){
   return(
     <div className="projects">
-    {/*calculator */}
+    {/*Flex Gallery */}
+        <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
+        <CardTitle
+          expand
+          style={{
+            color: "#000",
+            height: "150px",
+            background:
+              "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
+              textShadow: '5px 5px 20px white'
+          }}
+          ><span className="card-title"><strong>Flex Gallery, VanillaJS</strong></span></CardTitle>
+        <CardActions border>
+          <CardMenu></CardMenu>
+          <a href="https://codesandbox.io/s/yv454m8x21" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
+          <a href="https://yv454m8x21.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
+        </CardActions>
+      </Card>
+      {/*Local Time Clock*/}
+      <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
+      <CardTitle
+        expand
+        style={{
+          color: "#000",
+          height: "150px",
+          background:
+            "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
+            textShadow: '5px 5px 20px white'
+        }}
+        ><span className="card-title"><strong>Local Time Clock, VanillaJS</strong></span></CardTitle>
+      <CardActions border>
+        <CardMenu></CardMenu>
+        <a href="https://codesandbox.io/s/zw6k07kqnm" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
+        <a href="https://zw6k07kqnm.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
+      </CardActions>
+    </Card>
+    {/*Basic Paint App*/}
+    <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
+    <CardTitle
+      expand
+      style={{
+        color: "#000",
+        height: "150px",
+        background:
+          "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
+          textShadow: '5px 5px 20px white'
+      }}
+      ><span className="card-title"><strong>Simple Paint App, VanillaJS</strong></span></CardTitle>
+    <CardActions border>
+      <CardMenu></CardMenu>
+      <a href="https://codesandbox.io/s/yv454m8x21" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
+      <a href="https://yv454m8x21.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
+    </CardActions>
+  </Card>
+    
+          </div>
+  )
+    }else if(this.state.activeTab ===1){
+return(
+  <div className="projects">
+  <Card className="cards" shadow={5} style={{ width: "250px", margin: "auto" }}>
+            <CardTitle
+              expand
+              style={{
+                color: "#000",
+                height: "150px",
+                background:
+                  "url(https://pbs.twimg.com/profile_images/873856169017843712/Ue26CONG_400x400.jpg) center / cover"
+              }}
+              ><span className="card-title">Voyage 7</span></CardTitle>
+            <CardActions border>
+              <CardMenu></CardMenu>
+              <Button colored>gitHub</Button>
+              <Button colored>Live View</Button>
+              
+            </CardActions>
+          </Card>
+          </div>
+          )
+    }else if(this.state.activeTab ===2){
+      return(
+        <div className="projects">
+        {/*calculator */}
           <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
             <CardTitle
               expand
@@ -129,69 +211,6 @@ class Projects extends Component {
               
             </CardActions>
           </Card>
-          </div>
-  )
-    }else if(this.state.activeTab ===1){
-return(
-  <div className="projects">
-  <Card className="cards" shadow={5} style={{ width: "250px", margin: "auto" }}>
-            <CardTitle
-              expand
-              style={{
-                color: "#000",
-                height: "150px",
-                background:
-                  "url(https://pbs.twimg.com/profile_images/873856169017843712/Ue26CONG_400x400.jpg) center / cover"
-              }}
-              ><span className="card-title">Voyage 7</span></CardTitle>
-            <CardActions border>
-              <CardMenu></CardMenu>
-              <Button colored>gitHub</Button>
-              <Button colored>Live View</Button>
-              
-            </CardActions>
-          </Card>
-          </div>
-          )
-    }else if(this.state.activeTab ===2){
-      return(
-        <div className="projects">
-        {/*Flex Gallery */}
-        <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
-        <CardTitle
-          expand
-          style={{
-            color: "#000",
-            height: "150px",
-            background:
-              "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
-              textShadow: '5px 5px 20px white'
-          }}
-          ><span className="card-title"><strong>Flex Gallery, VanillaJS</strong></span></CardTitle>
-        <CardActions border>
-          <CardMenu></CardMenu>
-          <a href="https://codesandbox.io/s/yv454m8x21" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
-          <a href="https://yv454m8x21.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
-        </CardActions>
-      </Card>
-      {/*Local Time Clock*/}
-      <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
-      <CardTitle
-        expand
-        style={{
-          color: "#000",
-          height: "150px",
-          background:
-            "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
-            textShadow: '5px 5px 20px white'
-        }}
-        ><span className="card-title"><strong>Local Time Clock, VanillaJS</strong></span></CardTitle>
-      <CardActions border>
-        <CardMenu></CardMenu>
-        <a href="https://codesandbox.io/s/zw6k07kqnm" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
-        <a href="https://zw6k07kqnm.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
-      </CardActions>
-    </Card>
         </div>
       )
     }
@@ -207,9 +226,9 @@ return(
             onChange={(tabId) => this.setState({ activeTab: tabId })}
             ripple
           >
-            <Tab className="tabs">FCC:Projects</Tab>
+            <Tab className="tabs">Projects</Tab>
             <Tab className="tabs">Chingu Voyages</Tab>
-            <Tab className="tabs">Other</Tab>
+            <Tab className="tabs">FCC:Projects</Tab>
           </Tabs>
           <section className="projects-grid">
           {this.toggleCategories()}
