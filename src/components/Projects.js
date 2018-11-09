@@ -57,7 +57,24 @@ class Projects extends Component {
         <a href="https://zw6k07kqnm.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
       </CardActions>
     </Card>
-    
+    {/*Basic Paint App*/}
+    <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
+    <CardTitle
+      expand
+      style={{
+        color: "#000",
+        height: "150px",
+        background:
+          "url(http://cdn.embed.ly/providers/logos/codesandbox.png) center / cover",
+          textShadow: '5px 5px 20px white'
+      }}
+      ><span className="card-title"><strong>Simple Paint App, VanillaJS</strong></span></CardTitle>
+    <CardActions border>
+      <CardMenu></CardMenu>
+      <a href="https://codesandbox.io/s/yv454m8x21" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
+      <a href="https://yv454m8x21.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
+    </CardActions>
+  </Card>
           </div>
   )
     }else if(this.state.activeTab ===1){
