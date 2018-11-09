@@ -71,8 +71,8 @@ class Projects extends Component {
       ><span className="card-title"><strong>Simple Paint App, VanillaJS</strong></span></CardTitle>
     <CardActions border>
       <CardMenu></CardMenu>
-      <a href="https://codesandbox.io/s/yv454m8x21" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
-      <a href="https://yv454m8x21.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
+      <a href="https://codesandbox.io/s/kmmwkolwo7" target="_blank" rel="noopener noreferrer"><Button colored>CodeSB</Button></a>
+      <a href="https://kmmwkolwo7.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
     </CardActions>
   </Card>
           </div>
