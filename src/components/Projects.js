@@ -75,7 +75,6 @@ class Projects extends Component {
       <a href="https://kmmwkolwo7.codesandbox.io/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
     </CardActions>
   </Card>
-    
           </div>
   )
     }else if(this.state.activeTab ===1){
