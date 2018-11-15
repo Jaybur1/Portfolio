@@ -2,6 +2,10 @@
     font-family: 'KoHo', sans-serif;
 }
 
+.material-icons {
+    color: #FFF;
+}
+
 .Layout {
     background: url('https://stmed.net/sites/default/files/building-wallpapers-28464-2294147.jpg');
     background-attachment: fixed;
@@ -16,6 +20,10 @@
     position: relative;
     height: 200px;
     border-radius: 50%;
+}
+
+.menu {
+    text-align: center;
 }
 
 .name {
@@ -59,9 +67,10 @@
 }
 
 .social-links {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(5.5em, 1fr));
+    width: 60%;
     margin: auto;
 }
 
@@ -75,7 +84,6 @@
 .category-tab {
     background-color: rgba(255, 255, 255, 0.7);
     width: 80%;
-    height: 20%;
     margin: auto;
     border-radius: 10px;
     box-shadow: 10px 10px 30px black;
@@ -87,19 +95,17 @@
 }
 
 .projects {
-    width: 67wh;
-    margin: 40px;
-    margin-bottom: 40px;
+    margin: 20px;
+    padding-bottom: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
 }
 
-@media only screen and (min-device-width: 320px) and (min-device-width:480px) {
-    .cards {
-        width: 100px;
-        margin: auto;
-    }
+.cards {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .cards:hover {
