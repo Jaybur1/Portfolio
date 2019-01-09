@@ -10,14 +10,13 @@ class App extends Component {
       <div className="App">
         <div>
           <Layout className="Layout">
-            <Header transparent  style={{ color: "white"}} />
-            <Drawer className="manu" title="Menu" style={{shadow: '5px 5px 20px black'}}>
+            <Header transparent style={{ color: "white" }} />
+            <Drawer className="manu" title="Menu" style={{ shadow: '5px 5px 20px black' }}>
               <Navigation>
                 <Link to="/">Main</Link>
                 <Link to="/About">About</Link>
                 <Link to="/Projects">Projects</Link>
                 <Link to="/Contact">Contact</Link>
-                <Link to="/Useful">Useful</Link>
               </Navigation>
             </Drawer>
             <Content className="Content">
