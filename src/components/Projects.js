@@ -110,11 +110,11 @@ class Projects extends Component {
                 background:
                   "url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center / cover"
               }}
-            ><span className="card-title">Articles App, Ruby on Rails</span></CardTitle>
+            ><span className="card-title">Article-App, Ruby on Rails</span></CardTitle>
             <CardActions border>
               <CardMenu></CardMenu>
-              <a href="https://github.com/Jaybur1/cubunu-article-hub" target="_blank" rel="noopener noreferrer"><Button colored>gitHub</Button></a>
-              <a href="https://cubunu-article-hub.herokuapp.com" target="_blank" rel="noopener noreferrer"><Button colored>Live View</Button></a>
+              <a href="https://github.com/Jaybur1/MuffinTalk-chatApp" target="_blank" rel="noopener noreferrer"><Button colored>gitHub</Button></a>
+              <a href="https://muffin-talk-chat.herokuapp.com" target="_blank" rel="noopener noreferrer"><Button colored>Live View</Button></a>
 
             </CardActions>
           </Card>
@@ -195,7 +195,7 @@ class Projects extends Component {
 
             </CardActions>
           </Card>
-          {/*randome quoote Machine */}
+          {/*random quoote Machine */}
           <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
             <CardTitle
               expand
@@ -205,7 +205,7 @@ class Projects extends Component {
                 background:
                   "url(https://i0.wp.com/www.keepcalmcoding.com/wp-content/uploads/2018/04/Free-code-camp-banner.jpg?fit=960%2C530) center / cover"
               }}
-            ><span className="card-title">Randome Quote, JQuery</span></CardTitle>
+            ><span className="card-title">Random Quote, JQuery</span></CardTitle>
             <CardActions border>
               <CardMenu></CardMenu>
               <a href="https://codepen.io/Jaybur1/pen/yRJWWV" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
