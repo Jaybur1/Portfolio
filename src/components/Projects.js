@@ -113,8 +113,8 @@ class Projects extends Component {
             ><span className="card-title">Article-App, Ruby on Rails</span></CardTitle>
             <CardActions border>
               <CardMenu></CardMenu>
-              <a href="https://cubunu-article-hub.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Button colored>gitHub</Button></a>
-              <a href="https://github.com/Jaybur1/cubunu-article-hub" target="_blank" rel="noopener noreferrer"><Button colored>Live View</Button></a>
+              <a href="https://github.com/Jaybur1/cubunu-article-hub" target="_blank" rel="noopener noreferrer"><Button colored>gitHub</Button></a>
+              <a href="https://cubunu-article-hub.herokuapp.com/" target="_blank" rel="noopener noreferrer"><Button colored>Live View</Button></a>
 
             </CardActions>
           </Card>
