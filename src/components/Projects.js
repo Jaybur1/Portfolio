@@ -81,6 +81,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === 0) {
       return (
         <div className="projects">
+          {/*MuffinTalk React+socet project.*/}
           <Card className="cards" shadow={5} style={{ width: "250px", margin: "auto" }}>
             <CardTitle
               expand
@@ -95,6 +96,25 @@ class Projects extends Component {
               <CardMenu></CardMenu>
               <a href="https://github.com/Jaybur1/MuffinTalk-chatApp" target="_blank" rel="noopener noreferrer"><Button colored>gitHub</Button></a>
               <a href="https://muffin-talk-chat.herokuapp.com" target="_blank" rel="noopener noreferrer"><Button colored>Live View</Button></a>
+
+            </CardActions>
+          </Card>
+
+          {/*ArtiHub Rails project.*/}
+          <Card className="cards" shadow={5} style={{ width: "250px", margin: "auto" }}>
+            <CardTitle
+              expand
+              style={{
+                color: "#000",
+                height: "150px",
+                background:
+                  "url(https://pbs.twimg.com/profile_images/691206086955790336/CDMbA57p_400x400.png) center / cover"
+              }}
+            ><span className="card-title">Articles App, Ruby on Rails</span></CardTitle>
+            <CardActions border>
+              <CardMenu></CardMenu>
+              <a href="https://github.com/Jaybur1/cubunu-article-hub" target="_blank" rel="noopener noreferrer"><Button colored>gitHub</Button></a>
+              <a href="https://cubunu-article-hub.herokuapp.com" target="_blank" rel="noopener noreferrer"><Button colored>Live View</Button></a>
 
             </CardActions>
           </Card>
@@ -226,8 +246,8 @@ class Projects extends Component {
             onChange={(tabId) => this.setState({ activeTab: tabId })}
             ripple
           >
-            <Tab className="tabs">ReactJS</Tab>
-            <Tab className="tabs">VanillaJs</Tab>
+            <Tab className="tabs">Recent Projects</Tab>
+            <Tab className="tabs">Past Projects</Tab>
             <Tab className="tabs">FCC Projects</Tab>
           </Tabs>
           <section className="projects-grid">
