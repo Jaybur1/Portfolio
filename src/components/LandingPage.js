@@ -16,9 +16,10 @@ class LandingPage extends Component {
               <h1>Hey there! I'm Jay!</h1>
             </div>
             <div className="banner-text">
-              <h1>Front End  Web Developer</h1>
+
+              <h1>Web Developer</h1>
               <hr />
-              <p>HTML/CSS | Bootstrap | JavaScript | JQuery | React.JS</p>
+              <p>HTML/CSS | JavaScript | Ruby/Rails | ReactJs | Express</p>
               <div className="social-links">
                 {/*fcc */}
                 <a href="https://www.freecodecamp.org/jaybur1" target="_blank" rel="noopener noreferrer"><i className="fab fa-free-code-camp"></i></a>

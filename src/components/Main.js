@@ -6,15 +6,15 @@ import Projects from './Projects';
 import Contact from './Contact';
 import Useful from './Useful';
 
-const Main = () =>(
+const Main = () => (
     <Switch>
-    <Route exact path="/" component={LandingPage} />
-    <Route path="/About" component={About} />
-    <Route path="/Projects" component={Projects} />
-    <Route path="/Contact" component={Contact}/>
-    <Route path="/Useful" component={Useful}/>
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/About" component={About} />
+        <Route path="/Projects" component={Projects} />
+        <Route path="/Contact" component={Contact} />
+        <Route path="/Useful" component={Useful} />
     </Switch>
-    );
+);
 
 
 export default Main;

@@ -2,6 +2,10 @@
     font-family: 'KoHo', sans-serif;
 }
 
+.material-icons {
+    color: #FFF;
+}
+
 .Layout {
     background: url('https://stmed.net/sites/default/files/building-wallpapers-28464-2294147.jpg');
     background-attachment: fixed;
@@ -16,7 +20,10 @@
     position: relative;
     height: 200px;
     border-radius: 50%;
-    padding-top: 0.8em;
+}
+
+.menu {
+    text-align: center;
 }
 
 .name {
@@ -36,6 +43,16 @@
     width: 45%;
     margin: auto;
     border-radius: 10px;
+}
+
+@media screen and (max-device-width: 480px) {
+    .banner-text {
+        background-color: #000;
+        opacity: .8;
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+    }
 }
 
 .banner-text h1 {
@@ -60,9 +77,10 @@
 }
 
 .social-links {
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(5.5em, 1fr));
+    width: 60%;
     margin: auto;
 }
 
@@ -76,7 +94,6 @@
 .category-tab {
     background-color: rgba(255, 255, 255, 0.7);
     width: 80%;
-    height: 20%;
     margin: auto;
     border-radius: 10px;
     box-shadow: 10px 10px 30px black;
@@ -88,9 +105,85 @@
 }
 
 .projects {
-    margin: 40px;
-    margin-bottom: 40px;
+    margin: 20px;
+    padding-bottom: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.cards {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cards:hover {
+    box-shadow: 15px 15px 80px black;
+    transform: scale(1.02);
+}
+
+.about-page {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+}
+
+.about-page h1 {
+    font-family: 'KoHo', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.about-page hr {
+    border-top: 1px dotted black;
+    width: 100%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: auto;
+    padding: 25px;
+}
+
+.contact-page {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 30%;
+    height: 20%;
+    margin: auto;
+    margin-top: 30vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px black;
+}
+
+.contact-page h1 {
+    font-family: 'KoHo', sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    text-align: left;
+}
+
+.contact-page hr {
+    position: relative;
+    left: 0;
+    border-top: 1px dotted black;
+    width: 90%;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.contacts {
+    display: grid;
+    grid-gap: 10px;
+    font-family: 'KoHo', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    text-align: left;
 }
