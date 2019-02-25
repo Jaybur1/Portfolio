@@ -21,6 +21,24 @@ class Projects extends Component {
     if (this.state.activeTab === 1) {
       return (
         <div className="projects">
+          {/*Pomodoro */}
+          <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
+            <CardTitle
+              expand
+              style={{
+                color: "#fff",
+                height: "150px",
+                background:
+                  "url(https://i0.wp.com/www.keepcalmcoding.com/wp-content/uploads/2018/04/Free-code-camp-banner.jpg?fit=960%2C530) center / cover"
+              }}
+            ><span className="card-title">Pomodoro Clock, VanillaJS</span></CardTitle>
+            <CardActions border>
+              <CardMenu></CardMenu>
+              <a href="https://github.com/Jaybur1/TOP-pomodoro" target="_blank" rel="noopener noreferrer"><Button colored>GitHub</Button></a>
+              <a href="https://jaybur1.github.io/TOP-pomodoro/" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
+
+            </CardActions>
+          </Card>
           {/*Flex Gallery */}
           <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
             <CardTitle
@@ -174,24 +192,6 @@ class Projects extends Component {
               <CardMenu></CardMenu>
               <a href="https://codepen.io/Jaybur1/pen/mzmjWB" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
               <a href="https://codepen.io/Jaybur1/full/mzmjWB" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
-
-            </CardActions>
-          </Card>
-          {/*Pomodoro */}
-          <Card className="cards" shadow={6} style={{ width: "250px", margin: "auto" }}>
-            <CardTitle
-              expand
-              style={{
-                color: "#fff",
-                height: "150px",
-                background:
-                  "url(https://i0.wp.com/www.keepcalmcoding.com/wp-content/uploads/2018/04/Free-code-camp-banner.jpg?fit=960%2C530) center / cover"
-              }}
-            ><span className="card-title">Pomodoro Clock, JQuery</span></CardTitle>
-            <CardActions border>
-              <CardMenu></CardMenu>
-              <a href="https://codepen.io/Jaybur1/pen/wmLVpB" target="_blank" rel="noopener noreferrer"><Button colored>CodePen</Button></a>
-              <a href="https://codepen.io/Jaybur1/full/wmLVpB" target="_blank" rel="noopener noreferrer"><Button colored>View Demo</Button></a>
 
             </CardActions>
           </Card>
